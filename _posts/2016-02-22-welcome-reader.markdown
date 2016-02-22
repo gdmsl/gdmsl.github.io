@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Welcome reader!"
-date:   2016-02-22 17:03:00
+title:  "Welcome Reader!"
+date:   2016-02-22 16:00:00
 categories: welcome
 ---
-
 Hi reader! How are you? Welcome to my new and shiny *blog*!
 
 I will try to keep you up to date because I have a lot of awesome stuff to
