@@ -1,0 +1,13 @@
+# Site settings
+title: Guido Masella
+email: guido.masella@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Hi! I am Guido Masella, a physicist, coder, gamer and GNU/Linux enthusiast,
+    and this is my blog!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://gdmsl.github.io" # the base hostname & protocol for your site
+twitter_username: gdmsl
+github_username:  gdmsl
+
+# Build settings
+markdown: kramdown
