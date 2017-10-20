@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About GDMSL
+title: About Me
 permalink: /about/
 ---
 
@@ -37,7 +37,8 @@ You can read my full Curriculum Vitae on
 
 ## Education
 
-* **February 2017 -- present**: Ph. D. Student at Laboratory of Quantum Physics, University of Strasbourg, Advisor Prof. Guido Pupillo.
+* **February 2017 -- present**: Ph. D. Student at Laboratory of Quantum
+  Physics, University of Strasbourg, Advisor Prof. Guido Pupillo.
 * **2016**: Post graduate training at CNR-INO, Pisa, working on "A Magneto
   Optical Trap for Dysprosium Atoms".
 * **2012 - 2015**: Master's degree in Physics at University of Pisa,
