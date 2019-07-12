@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Welcome Reader!"
 date:   2016-02-22 16:00:00
 categories: welcome
