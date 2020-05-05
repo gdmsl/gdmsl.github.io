@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guido Masella</title>
-    <link>http://www.example.com/</link>
+    <link>https://gdmsl.github.io/</link>
     <description>Recent content on Guido Masella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 May 2020 10:18:35 +0200</lastBuildDate>
     
-	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gdmsl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.example.com/about/</link>
+      <link>https://gdmsl.github.io/about/</link>
       <pubDate>Tue, 05 May 2020 10:18:35 +0200</pubDate>
       
-      <guid>http://www.example.com/about/</guid>
+      <guid>https://gdmsl.github.io/about/</guid>
       <description>&lt;p&gt;My name is &lt;strong&gt;Guido Masella&lt;/strong&gt; and I am a Physicists, coder, and GNU/Linux
 enthusiast.&lt;/p&gt;
 &lt;h1 id=&#34;phisics&#34;&gt;Phisics&lt;/h1&gt;
