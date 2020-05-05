@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guido Masella</title>
+    <link>http://www.example.com/</link>
+    <description>Recent content on Guido Masella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 May 2020 10:18:35 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://www.example.com/about/</link>
+      <pubDate>Tue, 05 May 2020 10:18:35 +0200</pubDate>
+      
+      <guid>http://www.example.com/about/</guid>
+      <description>&lt;p&gt;My name is &lt;strong&gt;Guido Masella&lt;/strong&gt; and I am a Physicists, coder, and GNU/Linux
+enthusiast.&lt;/p&gt;
+&lt;h1 id=&#34;phisics&#34;&gt;Phisics&lt;/h1&gt;
+&lt;p&gt;Currentely I am a post-doctoral researcher in the &lt;a href=&#34;https://qmtheory.fr&#34;&gt;Quantum Matter Theory Group
+(QMT)&lt;/a&gt; at the &lt;a href=&#34;https://isis.unistra.fr&#34;&gt;Institut de Sciences et d&amp;rsquo;Ingénierie
+Supramoléculaires (ISIS)&lt;/a&gt; and &lt;a href=&#34;https://unistra.fr&#34;&gt;University of
+Strasbourg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I got my Master&amp;rsquo;s degree in Physics at University of Pisa in late 2015.  For a
+short period in 2016 I worked as a trainee for the Italian National Council of
+Research (&lt;a href=&#34;https://fox.ino.it/home/pisa/&#34;&gt;CNR&lt;/a&gt;) on an experiment employing
+ultracold atomic gases.&lt;/p&gt;
+&lt;p&gt;In 2017 I moved to Strasbourg joining the group of &lt;a href=&#34;https://qmtheory.fr&#34;&gt;Prof. Guido
+Pupillo&lt;/a&gt;. I got my Ph.D in Physics on December 6th, 2019.&lt;/p&gt;
+&lt;p&gt;From February 2020 I am a post-doctoral researcher working together wih Prof.
+Guido Pupillo and Prof. Nikolay V. Prokof&amp;rsquo;ev on &lt;em&gt;Diagrammatic Monte
+Carlo methods for Effective Field Theories and Dipole Fermions&lt;/em&gt; (link
+&lt;a href=&#34;http://www.usias.fr/en/fellows/2019-fellows/nikolay-prokofiev-guido-pupillo/&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;My main research interests are the study and development of numerical methods
+for accurate descriptions of many-body interacting systems.&lt;/p&gt;
+&lt;h1 id=&#34;life&#34;&gt;Life&lt;/h1&gt;
+&lt;p&gt;I grew up in San Pietro Infine, a small and beautiful town in the center-south
+of Italy.  I had the immense pleasure to live for almost 8 years in Pisa. In
+2017 I moved to Strasbourg, in the exact centre of Europe.&lt;/p&gt;
+&lt;p&gt;In 2018 I was elected as board member of &lt;a href=&#34;https://strasair.org&#34;&gt;StrasAIR&lt;/a&gt;, an association of international researchers of Strasbourg.&lt;/p&gt;
+&lt;p&gt;I contributed to the early development of  &lt;a href=&#34;https://gametales.it&#34;&gt;GameTales.it&lt;/a&gt;, a videogame-centered news website and of its online community (&lt;a href=&#34;https://discord.gg/eKUgjT&#34;&gt;discord&lt;/a&gt;).&lt;/p&gt;
+&lt;h1 id=&#34;publications-and-pre-prints&#34;&gt;Publications and Pre-prints&lt;/h1&gt;
+&lt;p&gt;I am author of the following publications and pre-prints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;X. Deng, G. Masella, G. Pupillo, and L. Santos,
+&lt;strong&gt;Universal algebraic growth of entanglement entropy in many-body localized systems with power-law interactions&lt;/strong&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1912.08131&#34;&gt;arXiv:1912.08131&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;M. Mizoguchi, Y. Zhang, M. Kunimi, A. Tanaka, S. Takeda, N. Takei, V. Bharti, K. Koyasu, T. Kishimoto, D. Jaksch, A. Glaetzle, M. Kiffner, G. Masella, G. Pupillo, M. Weidemüller, and K. Ohmori,
+&lt;strong&gt;Ultrafast creation of overlapping Rydberg electrons in an atomic BEC and Mott-insulator lattice&lt;/strong&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1910.05292&#34;&gt;arXiv:1910:05292&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;T. Botzung, D. Hagenmüller, G. Masella, J. Dubail, N. Defenu, A. Trombettoni, and G. Pupillo
+&lt;strong&gt;Effects of energy extensivity on the quantum phases of long-range interacting systems&lt;/strong&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1909.12105&#34;&gt;arXiv:1909.12105&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;G. Masella, A. Angelone, F. Mezzacapo, G. Pupillo, N. V. Prokof&amp;rsquo;ev,
+&lt;strong&gt;Supersolid stripe crystal from finite-range interactions on a lattice&lt;/strong&gt;,
+&lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.045301&#34;&gt;Phys. Rev. Lett. 123, 045301 (2019)&lt;/a&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1909.09082&#34;&gt;arXiv:1909.09082&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;A. Angelone, T. Ying, F. Mezzacapo, G. Masella, M. Dalmonte, G. Pupillo,
+&lt;strong&gt;Non-equilibrium scenarios in cluster-forming quantum lattice models&lt;/strong&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1606.04267&#34;&gt;arXiv:1606.04267&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;E. Lucioni, G. Masella, A. Fregosi, C. Gabbanini, S. Gozzini, A. Fioretti, L.
+Del Bino, J. Catani, G. Modugno, M. Inguscio,
+&lt;strong&gt;A new setup for experiments with ultracold Dysprosium atoms&lt;/strong&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1140/epjst/e2016-60387-6&#34;&gt;The European Physical Journal Special Topics volume 226, pages2775–2780 (2017)&lt;/a&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1702.06327&#34;&gt;arXiv:1702.06327&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;C. Simonelli, M. Archimi, L. Asteria, D. Capecchi, G. Masella, E. Arimondo,
+D. Ciampini, O. Morsch,
+&lt;strong&gt;De-excitation spectroscopy of strongly interacting Rydberg gases&lt;/strong&gt;,
+&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.043411&#34;&gt;Phys. Rev. A 96, 043411 (2017)&lt;/a&gt;,
+&lt;a href=&#34;https://arxiv.org/abs/1707.01382&#34;&gt;arXiv:1707.01382&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;C. Simonelli, M. M. Valado, G. Masella, L. Asteria, E. Arimondo, D. Ciampini
+and O. Morsch,
+&lt;strong&gt;Seeded excitation avalanches in off-resonaltly driven Rydberg gases&lt;/strong&gt;,
+&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/0953-4075/49/15/154002&#34;&gt;J. Phys. B: At. Mol. Opt. Phys. 49 (2016) 154002&lt;/a&gt;,
+&lt;a href=&#34;http://arxiv.org/abs/1602.01257&#34;&gt;arXiv:1602.01257&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;R. Faoro, C. Simonelli, M. Archimi, G. Masella, M. M. Valado, E. Arimondo,
+R. Mannella, D. Ciampini and O. Morsch,
+&lt;strong&gt;Van der Waals explosion of cold Rydberg clusters&lt;/strong&gt;,
+&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.030701&#34;&gt;Phys. Rev. A 93, 030701 (2016)&lt;/a&gt;,
+&lt;a href=&#34;http://arxiv.org/abs/1506.08463&#34;&gt;arXiv:1506.08463&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;theses&#34;&gt;Theses&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;(Ph.D) G. Masella and G. Pupillo (supervisor), &lt;strong&gt;Exotic Quantum Phenomena in Cold Atomic Gases: Numerical Approaches&lt;/strong&gt;, University of Strasbourg, December 2019.&lt;/li&gt;
+&lt;li&gt;(M.Sc. / Laurea Magistrale) G. Masella and O. Morsch (supervisor), &lt;strong&gt;Many Body Physics of Strongly Interacting Rydberg Atoms&lt;/strong&gt; &lt;a href=&#34;https://etd.adm.unipi.it/theses/available/etd-09292015-200352&#34;&gt;University of Pisa Archives&lt;/a&gt;, University of Pisa, October 2015.&lt;/li&gt;
+&lt;li&gt;(B.Sc. / Laurea Triennale) G. Masella and G. Cella (supervisor), &lt;strong&gt;Un Algorithmo di Monte Carlo per la Simulazione di un Sistema Frustrato&lt;/strong&gt; (&lt;em&gt;A Monte Carlo Algorithm for the Simulation of a Frustrated System&lt;/em&gt;), University of Pisa, December 2012.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
