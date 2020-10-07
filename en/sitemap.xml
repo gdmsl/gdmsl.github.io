@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gdmsl.github.io/about/</loc>
+    <lastmod>2020-05-05T10:18:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://gdmsl.github.io/it/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gdmsl.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gdmsl.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gdmsl.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://gdmsl.github.io/it/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gdmsl.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gdmsl.github.io/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gdmsl.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://gdmsl.github.io/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gdmsl.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gdmsl.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gdmsl.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://gdmsl.github.io/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gdmsl.github.io/tags/"
+                />
+  </url>
+  
+</urlset>

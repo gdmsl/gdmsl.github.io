@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guido Masella</title>
+    <link>https://gdmsl.github.io/it/</link>
+    <description>Recent content on Guido Masella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://gdmsl.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chi sono</title>
+      <link>https://gdmsl.github.io/it/about/</link>
+      <pubDate>Tue, 05 May 2020 10:18:35 +0200</pubDate>
+      
+      <guid>https://gdmsl.github.io/it/about/</guid>
+      <description>Sono Guido Masella, fisico, sviluppatore ed utente entusiasta di GNU/Linux.
+Fisica Attualmente sono uno un ricercatore post-doc nel Quantum Matter Theory Group (QMT) presso l&#39;Istituto di Science e d&amp;rsquo;Ingenieria supramolecolare (ISIS) e l&#39;Università di Strasburgo
+Ho ottenuto la Laure Magistrale in Fisica presso l&amp;rsquo;Università di Pisa verso la fine del 2015. Subito dopo ho svolto un tirocinio, per un breve periodo nel 2016, presso l&amp;rsquo;Istituto Nazionale di Ottica (INO) del Consiglio Nazionale della Ricerca (CNR).</description>
+    </item>
+    
+  </channel>
+</rss>
