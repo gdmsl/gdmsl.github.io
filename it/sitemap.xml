@@ -23,11 +23,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://gdmsl.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="https://gdmsl.github.io/it/categories/"
                 />
@@ -40,11 +35,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://gdmsl.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="https://gdmsl.github.io/it/"
                 />
@@ -54,11 +44,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gdmsl.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gdmsl.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
