@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://gdmsl.github.io/it/about/</loc>
     <lastmod>2020-05-05T10:18:35+02:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="it"
                 href="https://gdmsl.github.io/it/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gdmsl.github.io/it/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -34,9 +31,7 @@
                 hreflang="it"
                 href="https://gdmsl.github.io/it/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gdmsl.github.io/it/</loc>
     <xhtml:link
                 rel="alternate"
@@ -53,9 +48,7 @@
                 hreflang="it"
                 href="https://gdmsl.github.io/it/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gdmsl.github.io/it/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -73,5 +66,4 @@
                 href="https://gdmsl.github.io/it/tags/"
                 />
   </url>
-  
 </urlset>
