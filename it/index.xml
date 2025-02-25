@@ -4,18 +4,23 @@
     <title>Guido Masella</title>
     <link>https://gdmsl.github.io/it/</link>
     <description>Recent content on Guido Masella</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gdmsl.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 06 Feb 2022 14:00:00 +0200</lastBuildDate>
+    <atom:link href="https://gdmsl.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pubblicazioni</title>
+      <link>https://gdmsl.github.io/it/publications/</link>
+      <pubDate>Sun, 06 Feb 2022 14:00:00 +0200</pubDate>
+      <guid>https://gdmsl.github.io/it/publications/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34;&gt;&#xA;&#xA;var arxiv_authorid = &#34;masella_g_1&#34;;&#xA;var arxiv_format = &#34;arxiv&#34;;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://arxiv.org/js/myarticles.js&#34;&gt;&lt;/script&gt; &#xA;&#xA;&lt;div id=&#34;arxivfeed&#34;&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Chi sono</title>
       <link>https://gdmsl.github.io/it/about/</link>
       <pubDate>Tue, 05 May 2020 10:18:35 +0200</pubDate>
-      
       <guid>https://gdmsl.github.io/it/about/</guid>
-      <description>Sono Guido Masella, fisico, sviluppatore ed utente entusiasta di GNU/Linux.
-Fisica    Attualmente sono uno un ricercatore post-doc nel Quantum Matter Theory Group (QMT) presso l&amp;rsquo;Istituto di Science e d&amp;rsquo;Ingenieria supramolecolare (ISIS) e l&amp;rsquo;Università di Strasburgo
-Ho ottenuto la Laure Magistrale in Fisica presso l&amp;rsquo;Università di Pisa verso la fine del 2015. Subito dopo ho svolto un tirocinio, per un breve periodo nel 2016, presso l&amp;rsquo;Istituto Nazionale di Ottica (INO) del Consiglio Nazionale della Ricerca (CNR).</description>
+      <description>&lt;h1 id=&#34;guido-masella&#34;&gt;&#xA;  Guido Masella&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#guido-masella&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;mini-cv&#34;&gt;&#xA;  Mini CV&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#mini-cv&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Post-doc (2022)&lt;/strong&gt;: Università di Strasburgo &amp;amp; SATT Conectus Alsace, Francia&#xA;(&lt;em&gt;Prof. Shannon Whitlock&lt;/em&gt; e &lt;em&gt;Prof. Guido Pupillo&lt;/em&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Post-doc (2020-2022)&lt;/strong&gt;: Università di Strasburgo &amp;amp; USIAS, Francia (&lt;em&gt;Prof.&#xA;Guido Pupillo&lt;/em&gt; e &lt;em&gt;Prof. Nikolay V. Prokof&amp;rsquo;ev&lt;/em&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dottorato (2019)&lt;/strong&gt;: Fisica, Università di Strasburgo, Francia&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tirocinio (2016)&lt;/strong&gt;: INO-CNR sezione di Pisa&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Laurea Magistrale (2015)&lt;/strong&gt;: Fisica, Università di Pisa&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Laurea Triennale (2012)&lt;/strong&gt;: Fisica, Università di Pisa&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

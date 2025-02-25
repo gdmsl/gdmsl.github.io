@@ -4,7 +4,8 @@
     <title>Tags on Guido Masella</title>
     <link>https://gdmsl.github.io/tags/</link>
     <description>Recent content in Tags on Guido Masella</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gdmsl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://gdmsl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

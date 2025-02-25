@@ -4,18 +4,23 @@
     <title>Guido Masella</title>
     <link>https://gdmsl.github.io/</link>
     <description>Recent content on Guido Masella</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gdmsl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Feb 2022 14:00:00 +0200</lastBuildDate>
+    <atom:link href="https://gdmsl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://gdmsl.github.io/publications/</link>
+      <pubDate>Sun, 06 Feb 2022 14:00:00 +0200</pubDate>
+      <guid>https://gdmsl.github.io/publications/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34;&gt;&#xA;&#xA;var arxiv_authorid = &#34;masella_g_1&#34;;&#xA;var arxiv_format = &#34;arxiv&#34;;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://arxiv.org/js/myarticles.js&#34;&gt;&lt;/script&gt; &#xA;&#xA;&lt;div id=&#34;arxivfeed&#34;&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>https://gdmsl.github.io/about/</link>
       <pubDate>Tue, 05 May 2020 10:18:35 +0200</pubDate>
-      
       <guid>https://gdmsl.github.io/about/</guid>
-      <description>My name is Guido Masella and I am a Physicists, coder, and GNU/Linux enthusiast.
-Phisics    Currentely I am a post-doctoral researcher in the Quantum Matter Theory Group (QMT) at the Institut de Sciences et d&amp;rsquo;Ingénierie Supramoléculaires (ISIS) and University of Strasbourg
-I got my Master&amp;rsquo;s degree in Physics at University of Pisa in late 2015. For a short period in 2016 I worked as a trainee for the Italian National Council of Research (CNR) on an experiment employing ultracold atomic gases.</description>
+      <description>&lt;h1 id=&#34;guido-masella&#34;&gt;&#xA;  Guido Masella&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#guido-masella&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I am a&lt;/p&gt;&#xA;&lt;h1 id=&#34;trajectory&#34;&gt;&#xA;  Trajectory&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#trajectory&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Post-doc (2022)&lt;/strong&gt;: University of Strasbourg &amp;amp; SATT Conectus Alsace&#xA;(supervisors: &lt;em&gt;Prof. Shannon Whitlock&lt;/em&gt; and &lt;em&gt;Prof. Guido Pupillo&lt;/em&gt;), France&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Post-doc (2020-2022)&lt;/strong&gt;: University of Strasbourg &amp;amp; USIAS (supervisors:&#xA;&lt;em&gt;Prof. Guido Pupillo&lt;/em&gt; and &lt;em&gt;Prof. Nikolay Prokof&amp;rsquo;ev&lt;/em&gt;), France&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Doctoral Degree (2019)&lt;/strong&gt;: Physics, University of Strasbourg, France&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training (2016)&lt;/strong&gt;: Italian National Institute of Optics, CNR, Pisa, Italy&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Master Degree (2015)&lt;/strong&gt;: Physics, University of Pisa, Italy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

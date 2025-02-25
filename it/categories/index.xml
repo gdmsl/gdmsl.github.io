@@ -4,7 +4,8 @@
     <title>Categories on Guido Masella</title>
     <link>https://gdmsl.github.io/it/categories/</link>
     <description>Recent content in Categories on Guido Masella</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gdmsl.github.io/it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="https://gdmsl.github.io/it/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
