@@ -1,0 +1,11 @@
+theme = "congo"
+baseURL = "https://gdmsl.github.io"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 15
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

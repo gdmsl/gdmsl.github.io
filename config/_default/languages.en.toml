@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+title = "Guido Masella"
+
+[params]
+  displayName = "Guido Masella"
+  description = "CTO, GM & Co-founder of QPerfect — Physicist, Quantum Software Architect"
+
+[params.author]
+  name = "Guido Masella"
+  image = "img/author.webp"
+  headline = "Physicist | CTO, GM & Co-founder @ QPerfect"
+  bio = "Co-founder of [QPerfect](https://qperfect.io). Building [MIMIQ](https://qperfect.io/mimiq/), a virtual quantum computer, and [QLU](https://qperfect.io/qlu/), a fault-tolerant quantum middleware. From exotic quantum phases of matter to qubits and quantum gates."
+  links = [
+    { github = "https://github.com/gdmsl/" },
+    { gitlab = "https://gitlab.com/gdmsl/" },
+    { linkedin = "https://www.linkedin.com/in/guidomasella/" },
+    { x-twitter = "https://x.com/GuidoMasella" },
+    { google-scholar = "https://scholar.google.com/citations?user=M-6fs64AAAAJ" },
+    { link = "https://qperfect.io" },
+  ]

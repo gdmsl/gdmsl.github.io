@@ -1,0 +1,9 @@
+{{- $name := .Get "name" | default "quantum-walk" -}}
+{{- $height := .Get "height" | default "500px" -}}
+{{- $config := .Get "config" | default "{}" -}}
+<div class="sim-container" style="height: {{ $height }}; position: relative;">
+  <canvas class="sim-canvas"
+          data-sim="{{ $name }}"
+          data-sim-config='{{ $config }}'
+          style="position: absolute; inset: 0; width: 100%; height: 100%;"></canvas>
+</div>

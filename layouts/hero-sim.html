@@ -1,0 +1,46 @@
+{{ define "main" }}
+  {{/* Hero section with simulation canvas */}}
+  {{ $simName := .Params.simulation | default "" }}
+  {{ $simConfig := .Params.simulationConfig | default "{}" }}
+  {{ if $simName }}
+  <div class="hero-section hero-section--page">
+    <canvas class="hero-canvas"
+            data-sim="{{ $simName }}"
+            data-sim-config='{{ $simConfig | safeHTMLAttr }}'></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">{{ .Title | emojify }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="hero-headline">{{ . | markdownify | emojify }}</p>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <article class="max-w-full">
+    {{ if not $simName }}
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+    {{ end }}
+    <section class="prose mt-6 max-w-full dark:prose-invert">
+      {{ .Content | emojify }}
+    </section>
+    {{/* List child pages for section/list pages */}}
+    {{ if .IsSection }}
+    <section class="mt-8">
+      {{ range .Pages }}
+        {{ partial "article-link.html" . }}
+      {{ end }}
+    </section>
+    {{ end }}
+    <footer class="pt-8">
+      {{ partial "sharing-links.html" . }}
+    </footer>
+  </article>
+{{ end }}

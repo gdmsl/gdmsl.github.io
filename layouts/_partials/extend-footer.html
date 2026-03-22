@@ -1,0 +1,7 @@
+<script type="module">
+  if (document.querySelector('[data-sim]')) {
+    import('/js/sim-framework/sim-canvas.js')
+      .then(m => m.initSimulations())
+      .catch(e => console.warn('[sim] Load failed:', e));
+  }
+</script>
