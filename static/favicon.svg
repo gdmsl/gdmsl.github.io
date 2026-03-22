@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dotglow">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigglow">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- Grid — thick lines, high contrast -->
+  <g opacity="0.7">
+    <!-- Vertical -->
+    <line x1="85"  y1="0" x2="85"  y2="512" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="171" y1="0" x2="171" y2="512" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="256" y1="0" x2="256" y2="512" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="341" y1="0" x2="341" y2="512" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="427" y1="0" x2="427" y2="512" stroke="#1e3a6e" stroke-width="2.5"/>
+    <!-- Horizontal -->
+    <line x1="0" y1="85"  x2="512" y2="85"  stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="0" y1="171" x2="512" y2="171" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="0" y1="256" x2="512" y2="256" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="0" y1="341" x2="512" y2="341" stroke="#1e3a6e" stroke-width="2.5"/>
+    <line x1="0" y1="427" x2="512" y2="427" stroke="#1e3a6e" stroke-width="2.5"/>
+  </g>
+
+  <!-- Intersection dots -->
+  <g fill="#3b82f6" opacity="0.5">
+    <circle cx="85"  cy="85"  r="4"/><circle cx="171" cy="85"  r="4"/><circle cx="256" cy="85"  r="4"/><circle cx="341" cy="85"  r="4"/><circle cx="427" cy="85"  r="4"/>
+    <circle cx="85"  cy="171" r="4"/><circle cx="171" cy="171" r="4"/><circle cx="256" cy="171" r="4"/><circle cx="341" cy="171" r="4"/><circle cx="427" cy="171" r="4"/>
+    <circle cx="85"  cy="256" r="4"/><circle cx="171" cy="256" r="4"/><circle cx="256" cy="256" r="4"/><circle cx="341" cy="256" r="4"/><circle cx="427" cy="256" r="4"/>
+    <circle cx="85"  cy="341" r="4"/><circle cx="171" cy="341" r="4"/><circle cx="256" cy="341" r="4"/><circle cx="341" cy="341" r="4"/><circle cx="427" cy="341" r="4"/>
+    <circle cx="85"  cy="427" r="4"/><circle cx="171" cy="427" r="4"/><circle cx="256" cy="427" r="4"/><circle cx="341" cy="427" r="4"/><circle cx="427" cy="427" r="4"/>
+  </g>
+
+  <!-- Bright active nodes -->
+  <g filter="url(#dotglow)">
+    <circle cx="341" cy="171" r="8"  fill="#60a5fa" opacity="0.9"/>
+    <circle cx="256" cy="256" r="10" fill="#60a5fa" opacity="0.7"/>
+    <circle cx="171" cy="341" r="7"  fill="#3b82f6" opacity="0.8"/>
+    <circle cx="427" cy="85"  r="6"  fill="#3b82f6" opacity="0.6"/>
+    <circle cx="85"  cy="427" r="6"  fill="#2563eb" opacity="0.5"/>
+    <circle cx="341" cy="341" r="6"  fill="#3b82f6" opacity="0.6"/>
+    <circle cx="171" cy="171" r="6"  fill="#60a5fa" opacity="0.55"/>
+    <circle cx="427" cy="256" r="5"  fill="#3b82f6" opacity="0.5"/>
+    <circle cx="256" cy="171" r="5"  fill="#3b82f6" opacity="0.45"/>
+    <circle cx="256" cy="341" r="5"  fill="#2563eb" opacity="0.45"/>
+  </g>
+
+  <!-- Probability hotspot glows -->
+  <g filter="url(#bigglow)">
+    <circle cx="300" cy="210" r="40" fill="#3b82f6" opacity="0.18"/>
+    <circle cx="210" cy="310" r="35" fill="#3b82f6" opacity="0.14"/>
+    <circle cx="370" cy="150" r="25" fill="#2563eb" opacity="0.12"/>
+  </g>
+
+  <!-- GM text -->
+  <text x="256" y="296"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="240" font-weight="800" letter-spacing="-8"
+        text-anchor="middle" fill="url(#blue)"
+        filter="url(#glow)">GM</text>
+</svg>
