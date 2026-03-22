@@ -1,5 +1,5 @@
 theme = "congo"
-baseURL = "https://gdmsl.github.io"
+baseURL = "https://gdmsl.me"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 0
