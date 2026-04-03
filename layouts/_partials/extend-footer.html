@@ -5,6 +5,57 @@
     var btn = document.querySelector('#menu-button button[aria-controls="menu-wrapper"]');
     if (btn) btn.setAttribute("aria-expanded", "false");
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // --- Prose paragraphs: add role="text" so TalkBack reads them as one unit ---
+    // Without this, TalkBack splits paragraphs at every inline link, making
+    // it nearly impossible to listen to a full sentence.
+    // Links remain activatable via direct touch or TalkBack's links menu.
+    document.querySelectorAll(".prose p").forEach(function (p) {
+      if (p.querySelector("a")) {
+        p.setAttribute("role", "text");
+      }
+    });
+
+    // --- Language selector: toggle on click/tap (CSS hover only works on desktop) ---
+    document.querySelectorAll('button[aria-haspopup="true"]').forEach(function (btn) {
+      var dropdown = btn.parentElement.querySelector('[role="menu"]');
+      if (!dropdown) return;
+
+      // Spacer div between button and dropdown (keeps hover bridge working)
+      var spacer = btn.nextElementSibling;
+      if (spacer && spacer.tagName === "DIV" && !spacer.getAttribute("role")) {
+        // This is the invisible hover-bridge spacer
+      }
+
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        var open = dropdown.style.visibility === "visible";
+        dropdown.style.visibility = open ? "" : "visible";
+        dropdown.style.opacity = open ? "" : "1";
+        btn.setAttribute("aria-expanded", !open);
+      });
+
+      // Close when clicking outside
+      document.addEventListener("click", function (e) {
+        if (!btn.parentElement.contains(e.target)) {
+          dropdown.style.visibility = "";
+          dropdown.style.opacity = "";
+          btn.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      // Close on Escape
+      btn.parentElement.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          dropdown.style.visibility = "";
+          dropdown.style.opacity = "";
+          btn.setAttribute("aria-expanded", "false");
+          btn.focus();
+        }
+      });
+    });
+  });
 </script>
 <script type="module">
   if (document.querySelector('[data-sim]')) {
