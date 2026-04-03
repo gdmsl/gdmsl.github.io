@@ -1,26 +1,26 @@
 ---
-title: "Memoire de Licence: Algorithmes Monte Carlo pour les Systemes Frustres"
+title: "Mémoire de licence : algorithmes Monte Carlo pour les systèmes frustrés"
 date: 2013-07-01
-summary: "Algorithmes cluster Swendsen-Wang appliques aux systemes de spins frustres : le modele d'Ising 2D et le modele sigma non-lineaire O(N)."
-tags: ["monte carlo", "physique statistique", "modele d'ising", "reseau"]
+summary: "Algorithmes cluster Swendsen-Wang appliqués aux systèmes de spins frustrés : le modèle d'Ising 2D et le modèle sigma non-linéaire O(N)."
+tags: ["monte carlo", "physique statistique", "modèle d'ising", "réseau"]
 ---
 
-## Apercu
+## Aperçu
 
 **Un algoritmo di Monte Carlo per la simulazione di un sistema frustrato**
-(Un algorithme de Monte Carlo pour la simulation d'un systeme frustre)
-Universita degli Studi di Pisa, Dipartimento di Fisica "E. Fermi", 2013.
+(Un algorithme de Monte Carlo pour la simulation d'un système frustré)
+Università degli Studi di Pisa, Dipartimento di Fisica "E. Fermi", 2013.
 Directeur : Dott. Giancarlo Cella.
 
-Ce memoire etudie les performances des algorithmes Monte Carlo a clusters (en particulier l'algorithme Swendsen-Wang) appliques aux systemes de spins frustres, ou les gains d'efficacite habituels des mises a jour par clusters peuvent etre compromis.
+Ce mémoire étudie les performances des algorithmes Monte Carlo à clusters (en particulier l'algorithme Swendsen-Wang) appliqués aux systèmes de spins frustrés, où les gains d'efficacité habituels des mises à jour par clusters peuvent être compromis.
 
-## Sujets Cles
+## Sujets clés
 
-- **Algorithme Swendsen-Wang** : Une methode Monte Carlo basee sur les clusters qui reduit drastiquement le ralentissement critique dans les systemes de spins non frustres.
-- **Frustration et ralentissement critique** : Dans les systemes frustres, la decomposition en clusters devient moins efficace.
-- **Modele d'Ising 2D** : Simulations de reference sur le modele d'Ising 2D standard.
-- **Modele sigma non-lineaire O(N)** : Extension de l'approche Swendsen-Wang aux modeles de spins continus avec des actions de reseau ameliorees a la Symanzik.
+- **Algorithme Swendsen-Wang** : Une méthode Monte Carlo basée sur les clusters qui réduit drastiquement le ralentissement critique dans les systèmes de spins non frustrés.
+- **Frustration et ralentissement critique** : Dans les systèmes frustrés, la décomposition en clusters devient moins efficace.
+- **Modèle d'Ising 2D** : Simulations de référence sur le modèle d'Ising 2D standard.
+- **Modèle sigma non-linéaire O(N)** : Extension de l'approche Swendsen-Wang aux modèles de spins continus avec des actions de réseau améliorées à la Symanzik.
 
 ## Liens
 
-- [Universita degli Studi di Pisa](https://www.unipi.it)
+- [Università degli Studi di Pisa](https://www.unipi.it)
