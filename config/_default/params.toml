@@ -8,7 +8,7 @@ enableCodeCopy = true
 mainSections = ["posts"]
 
 [header]
-  layout = "basic"
+  layout = "hybrid"
   showTitle = true
 
 [footer]

@@ -218,6 +218,17 @@
   font-size: 1.05em;
 }
 
+/* --- Header: extend hamburger breakpoint for longer translated labels --- */
+
+@media (max-width: 1023px) {
+  header #menu-button {
+    display: block !important;
+  }
+  header nav > ul {
+    display: none !important;
+  }
+}
+
 /* --- Reduced motion --- */
 
 @media (prefers-reduced-motion: reduce) {
