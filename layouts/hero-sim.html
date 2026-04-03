@@ -6,8 +6,9 @@
   <div class="hero-section hero-section--page">
     <canvas class="hero-canvas"
             data-sim="{{ $simName }}"
-            data-sim-config='{{ $simConfig | safeHTMLAttr }}'></canvas>
-    <div class="hero-overlay"></div>
+            data-sim-config='{{ $simConfig | safeHTMLAttr }}'
+            aria-hidden="true" role="presentation"></canvas>
+    <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-content">
       <h1 class="hero-name">{{ .Title | emojify }}</h1>
       {{ with .Params.subtitle }}

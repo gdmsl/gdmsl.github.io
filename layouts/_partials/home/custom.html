@@ -2,8 +2,9 @@
 <div class="hero-section">
   <canvas id="sim-canvas" class="hero-canvas"
           data-sim="quantum-walk"
-          data-sim-config='{"colorScheme":"electric-blue","overlayGrid":true}'></canvas>
-  <div class="hero-overlay"></div>
+          data-sim-config='{"colorScheme":"electric-blue","overlayGrid":true}'
+          aria-hidden="true" role="presentation"></canvas>
+  <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-content">
     {{ $lazy := site.Params.enableImageLazyLoading | default true }}
     {{ $altText := (site.Language.Params.Author.name | default "Author") }}

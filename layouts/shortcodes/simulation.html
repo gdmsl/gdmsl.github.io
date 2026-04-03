@@ -1,7 +1,7 @@
 {{- $name := .Get "name" | default "quantum-walk" -}}
 {{- $height := .Get "height" | default "500px" -}}
 {{- $config := .Get "config" | default "{}" -}}
-<div class="sim-container" style="height: {{ $height }}; position: relative;">
+<div class="sim-container" style="height: {{ $height }}; position: relative;" aria-hidden="true" role="presentation">
   <canvas class="sim-canvas"
           data-sim="{{ $name }}"
           data-sim-config='{{ $config }}'
