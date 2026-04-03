@@ -6,11 +6,16 @@
     </div>
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
       {{/* Hamburger menu */}}
-      <label id="menu-button" for="menu-controller" class="block sm:hidden" aria-label="{{ i18n "nav.main_menu" | default "Open menu" }}">
+      <div id="menu-button" class="block sm:hidden">
         <input type="checkbox" id="menu-controller" class="hidden" />
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+        <button type="button"
+                class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label="{{ i18n "nav.open_menu" | default "Open menu" }}"
+                aria-expanded="false"
+                aria-controls="menu-wrapper"
+                onclick="var c=document.getElementById('menu-controller');c.checked=!c.checked;this.setAttribute('aria-expanded',c.checked)">
           {{ partial "icon.html" "bars" }}
-        </div>
+        </button>
         <div
           id="menu-wrapper"
           class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
@@ -129,7 +134,7 @@
             {{ end }}
           </ul>
         </div>
-      </label>
+      </div>
       {{/* Basic menu */}}
       <ul class="hidden list-none flex-row text-end sm:flex">
         {{ if .Site.Menus.main }}

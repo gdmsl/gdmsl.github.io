@@ -1,3 +1,11 @@
+<script>
+  // Override close_menu to update ARIA state
+  function close_menu() {
+    document.getElementById("menu-controller").checked = false;
+    var btn = document.querySelector('#menu-button button[aria-controls="menu-wrapper"]');
+    if (btn) btn.setAttribute("aria-expanded", "false");
+  }
+</script>
 <script type="module">
   if (document.querySelector('[data-sim]')) {
     import('/js/sim-framework/sim-canvas.js')
