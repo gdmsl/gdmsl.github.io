@@ -52,4 +52,8 @@ impl WasmSimulation {
     pub fn resize(&mut self, width: u32, height: u32) {
         self.inner.resize(width, height);
     }
+
+    pub fn seed(&mut self, seed: f64) {
+        self.inner.seed(seed as u64);
+    }
 }

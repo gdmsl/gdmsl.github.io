@@ -428,6 +428,12 @@ impl Tweezer {
         }
     }
 
+    pub fn seed(&mut self, seed: u64) {
+        self.rng = Rng::new(seed);
+        self.cycle_count = 0;
+        self.randomize_and_plan();
+    }
+
     fn tick_hungarian(&mut self) {
         match self.phase {
             Phase::Idle => {
