@@ -5,11 +5,11 @@ summary: "Lo sfondo che hai appena visto è una vera simulazione di ordinamento 
 tags: ["fisica", "simulazione", "calcolo-quantistico"]
 ---
 
-Potresti aver notato lo sfondo animato della pagina da cui arrivi. Potrebbe sembrare decorativo, ma è una **vera simulazione fisica** eseguita in tempo reale nel tuo browser, compilata in WebAssembly a partire da Rust.
+Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra decorativo, ma in realtà è una **vera simulazione fisica** che gira dal vivo nel tuo browser, compilata in WebAssembly a partire da Rust.
 
-Nessun video pre-renderizzato. Nessun trucco CSS. La matematica viene calcolata in questo momento, sul tuo dispositivo.
+Nessun video pre-registrato, nessun trucco CSS. I calcoli avvengono davvero, proprio adesso, sul tuo dispositivo.
 
-Queste simulazioni sono ispirate dalla fisica reale ma ottimizzate per l'impatto visivo. I parametri sono scelti per essere belli, non per riprodurre un esperimento specifico. Pensale come **arte computazionale radicata nella vera scienza**.
+Queste simulazioni si ispirano alla fisica reale, ma le ho regolate per il piacere degli occhi. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Puoi vederle come **arte computazionale radicata nella scienza vera**.
 
 ---
 
@@ -17,20 +17,20 @@ Queste simulazioni sono ispirate dalla fisica reale ma ottimizzate per l'impatto
 
 ## Ordinamento atomico con pinzette ottiche
 
-Quello che hai visto è il processo di **ordinamento atomico** usato nei computer quantistici ad atomi neutri. Gli atomi vengono caricati casualmente in un array di pinzette ottiche (fasci laser focalizzati che intrappolano singoli atomi), e una pinzetta mobile di ordinamento li riorganizza in una regione target compatta e priva di difetti.
+Quello che hai visto è l'**ordinamento atomico** usato nei computer quantistici ad atomi neutri. Gli atomi vengono caricati a caso in una griglia di pinzette ottiche (fasci laser molto focalizzati che intrappolano gli atomi uno a uno), e poi una pinzetta mobile li riorganizza in una zona di destinazione compatta e senza difetti.
 
-Negli esperimenti reali, ogni trappola cattura un atomo con probabilità di circa il 50%. Una telecamera cattura un'immagine dell'array per vedere quali trappole sono cariche. Poi un algoritmo veloce calcola il piano di riorganizzazione ottimale, e una pinzetta motorizzata preleva gli atomi uno alla volta (o in parallelo), trasportandoli per riempire le lacune. L'intero processo richiede millisecondi e produce un registro di qubit perfetto, privo di difetti, pronto per il calcolo quantistico.
+Negli esperimenti reali ogni trappola cattura un atomo con una probabilità di circa il 50 %. Una telecamera fotografa la griglia per capire quali trappole sono occupate. A quel punto un algoritmo veloce calcola il piano di riorganizzazione migliore, e una pinzetta motorizzata raccoglie gli atomi uno per uno (o in parallelo) e li sposta per colmare i vuoti. Tutto questo richiede pochi millisecondi e produce un registro di qubit perfetto, senza difetti, pronto per il calcolo quantistico.
 
-La simulazione alterna due algoritmi di ordinamento reali:
+La simulazione alterna due veri algoritmi di ordinamento:
 
-**Algoritmo ungherese** (assegnamento ottimale): Una singola pinzetta esegue il piano matematicamente ottimale. L'algoritmo di Kuhn-Munkres trova l'assegnamento degli atomi sorgente alle posizioni target che minimizza lo spostamento totale. La pinzetta segue percorsi interstiziali (viaggiando attraverso gli spazi tra i siti delle trappole) per evitare di disturbare altri atomi durante il trasporto. È l'approccio teoricamente ottimale.
+**Algoritmo ungherese** (assegnazione ottimale): una sola pinzetta esegue il piano matematicamente ottimale. L'algoritmo di Kuhn-Munkres stabilisce a quale posizione di destinazione assegnare ciascun atomo di partenza in modo da ridurre al minimo lo spostamento totale. La pinzetta segue percorsi interstiziali (passa negli spazi tra una trappola e l'altra) per non disturbare gli altri atomi mentre trasporta. È l'approccio ottimale in teoria.
 
-**Compressione** (pinzette parallele): Più pinzette operano simultaneamente, prima comprimendo tutte le colonne verso il centro, poi comprimendo tutte le righe. Ogni passo muove gli atomi di esattamente uno spaziamento di trappola, con tutte le pinzette sincronizzate. È più vicino a come funzionano gli esperimenti reali: non è globalmente ottimale, ma è veloce e naturalmente parallelizzabile.
+**Compressione** (pinzette in parallelo): più pinzette lavorano insieme, comprimendo prima tutte le colonne verso il centro e poi tutte le righe. A ogni passo gli atomi avanzano di esattamente un passo del reticolo, con tutte le pinzette all'unisono. Qui ci si avvicina a come funzionano davvero gli esperimenti: non è ottimale a livello globale, ma è veloce e si parallelizza in modo naturale.
 
-I cerchi grigi sono le trappole ottiche statiche. I punti teal brillanti sono gli atomi intrappolati. Il bagliore giallo è la pinzetta di ordinamento (o le pinzette, durante la compressione). Osserva come l'algoritmo ungherese produce percorsi eleganti ed efficienti, mentre la compressione crea uno sweep coordinato e soddisfacente.
+I cerchi grigi sono le trappole ottiche fisse. I punti brillanti verde acqua sono gli atomi intrappolati. Il bagliore giallo è la pinzetta di ordinamento (o le pinzette, durante la compressione). Guarda come l'algoritmo ungherese traccia percorsi eleganti ed efficienti, mentre la compressione dà una passata coordinata davvero soddisfacente.
 
-Questa tecnologia è al cuore di aziende come **QuEra**, **Pasqal** e **Atom Computing**, che stanno costruendo computer quantistici con centinaia o migliaia di qubit ad atomi neutri organizzati da pinzette ottiche.
+Questa tecnologia è al cuore di aziende come **QuEra**, **Pasqal** e **Atom Computing**, che stanno costruendo computer quantistici con centinaia o migliaia di qubit ad atomi neutri disposti da pinzette ottiche.
 
-### Sotto il cofano
+### Dietro le quinte
 
-La simulazione esegue l'intera pipeline di ordinamento: caricamento casuale, calcolo della regione target, pianificazione dei movimenti specifica per algoritmo (ungherese con Kuhn-Munkres O(n^3), o compressione per righe/colonne con passi paralleli a singolo hop), ed esecuzione animata con pathfinding interstiziale. L'output è una texture float a due canali: il canale R codifica trappole e atomi (blob gaussiani a diverse ampiezze), il canale G codifica le posizioni delle pinzette. Il fragment shader compone trappole (grigio), pinzette (giallo) e atomi (teal) con stratificazione corretta.
+La simulazione porta avanti l'intera pipeline di ordinamento: caricamento casuale, calcolo della zona di destinazione, pianificazione dei movimenti specifica per ogni algoritmo (l'ungherese con Kuhn-Munkres in O(n^3), oppure la compressione per righe e colonne con passi paralleli di una sola casella) ed esecuzione animata con ricerca del percorso interstiziale. Il risultato è una texture float a due canali: il canale R codifica trappole e atomi (macchie gaussiane di ampiezza diversa), il canale G codifica la posizione delle pinzette. Il fragment shader sovrappone in modo corretto trappole (in grigio), pinzette (in giallo) e atomi (verde acqua).

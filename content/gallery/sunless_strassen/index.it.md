@@ -7,7 +7,7 @@ draft: true
 Set di miniature stampate in 3D dalla collezione
 [Blood from Stone](https://www.myminifactory.com/object/3d-print-blood-from-stone-dm-stash-feb-22-bundle-208198)
 di [DM-Stash](https://www.myminifactory.com/users/DM-Stash).
-Non vedo l'ora di giocare al tavolo l'avventura associata!
+Non vedo l'ora di portare al tavolo l'avventura che le accompagna!
 
 ## Dettagli stampa
 

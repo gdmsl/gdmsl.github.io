@@ -11,17 +11,17 @@ tags: ["fisica quantistica", "monte carlo", "supersolido", "atomi freddi"]
 Université de Strasbourg, ISIS (UMR 7006), 2019.
 Relatore: Prof. Guido Pupillo.
 
-Questa tesi indaga le proprietà a bassa energia e bassa temperatura di sistemi bosonici fortemente correlati con interazioni a raggio finito e lungo raggio, rilevanti per esperimenti con gas atomici freddi.
+Questa tesi studia le proprietà a bassa energia e bassa temperatura dei sistemi bosonici fortemente correlati con interazioni a raggio finito e a lungo raggio, un regime rilevante per gli esperimenti sui gas atomici freddi.
 
 ## Risultati principali
 
-- **Fasi supersolide a strisce**: Dimostrata l'esistenza di fasi supersolide a strisce in modelli di hard-boson su reticoli quadrati con interazioni a raggio esteso, tramite simulazioni Monte Carlo a Integrale di Cammino su larga scala.
-- **Transizioni supersolide isotrope-anisotrope**: Scoperte rare transizioni tra fasi supersolide isotrope e anisotrope, rivelando un ricco diagramma di fase guidato dall'interazione tra raggio di interazione e geometria del reticolo.
-- **Quench di temperatura e localizzazione a molti corpi**: Studio degli effetti di quench rapidi di temperatura su sistemi quantistici a molti corpi.
+- **Fasi supersolide a strisce**: dimostrata l'esistenza di fasi supersolide a strisce in modelli di hard-boson su reticolo quadrato con interazioni a raggio esteso, mediante simulazioni Monte Carlo a integrale di cammino su larga scala.
+- **Transizioni supersolide isotrope-anisotrope**: individuate rare transizioni tra fasi supersolide isotrope e anisotrope, che rivelano un ricco diagramma di fase, determinato dal gioco tra la portata delle interazioni e la geometria del reticolo.
+- **Quench di temperatura e localizzazione a molti corpi**: studio degli effetti di quench rapidi di temperatura sui sistemi quantistici a molti corpi e delle loro connessioni con i fenomeni di localizzazione a molti corpi.
 
 ## Metodi
 
-- Monte Carlo a Integrale di Cammino (PIMC) con aggiornamenti worm algorithm
+- Monte Carlo a integrale di cammino (PIMC) con aggiornamenti di tipo worm algorithm
 - Density Matrix Renormalization Group (DMRG)
 
 ## Link

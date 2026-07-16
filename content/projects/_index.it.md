@@ -6,4 +6,4 @@ simulationConfig: '{"overlayGrid":false,"maxAlpha":0.55}'
 subtitle: "Strumenti per la scienza quantistica e oltre"
 ---
 
-Una selezione di progetti che ho costruito o a cui ho contribuito.
+Una selezione di progetti che ho realizzato o a cui ho contribuito.

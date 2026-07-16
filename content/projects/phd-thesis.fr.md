@@ -11,17 +11,17 @@ tags: ["physique quantique", "monte carlo", "supersolide", "atomes froids"]
 Université de Strasbourg, ISIS (UMR 7006), 2019.
 Directeur de thèse : Prof. Guido Pupillo.
 
-Cette thèse étudie les propriétés à basse énergie et basse température de systèmes bosoniques fortement corrélés avec des interactions à portée finie et longue portée, pertinentes pour les expériences avec des gaz atomiques froids.
+Cette thèse porte sur les propriétés à basse énergie et à basse température des systèmes bosoniques fortement corrélés dont les interactions sont à portée finie ou à longue portée, un régime pertinent pour les expériences sur les gaz atomiques froids.
 
 ## Résultats principaux
 
-- **Phases supersolides en bandes** : Démonstration de l'existence de phases supersolides en bandes dans des modèles de hard-boson sur réseaux carrés avec des interactions à portée étendue.
-- **Transitions supersolides isotropes-anisotropes** : Découverte de transitions rares entre phases supersolides isotropes et anisotropes.
-- **Trempes de température et localisation à N corps** : Étude des effets de trempes rapides de température sur les systèmes quantiques à N corps.
+- **Phases supersolides en bandes** : mise en évidence de phases supersolides en bandes dans des modèles de hard-boson sur réseau carré avec interactions à portée étendue, à l'aide de simulations Monte Carlo par intégrale de chemin à grande échelle.
+- **Transitions supersolides isotropes-anisotropes** : découverte de transitions rares entre phases supersolides isotropes et anisotropes, révélant un diagramme de phase riche, gouverné par l'interaction entre la portée des interactions et la géométrie du réseau.
+- **Trempes en température et localisation à N corps** : étude des effets de trempes rapides en température sur les systèmes quantiques à N corps, et de leurs liens avec la localisation à N corps.
 
 ## Méthodes
 
-- Monte Carlo par intégrale de chemin (PIMC) avec mises à jour worm algorithm
+- Monte Carlo par intégrale de chemin (PIMC) avec mises à jour de type worm algorithm
 - Density Matrix Renormalization Group (DMRG)
 
 ## Liens

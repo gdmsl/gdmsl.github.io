@@ -1,15 +1,15 @@
 ---
 title: "Questa non è solo un'animazione: gli atomi di Rydberg"
 date: 2026-03-12
-summary: "Lo sfondo che hai appena visto è una vera simulazione di atomi di Rydberg eseguita nel tuo browser tramite WebAssembly."
+summary: "Lo sfondo che hai appena visto è una vera simulazione di atomi di Rydberg che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "calcolo-quantistico"]
 ---
 
-Potresti aver notato lo sfondo animato della pagina da cui arrivi. Potrebbe sembrare decorativo, ma è una **vera simulazione fisica** eseguita in tempo reale nel tuo browser, compilata in WebAssembly a partire da Rust.
+Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione di fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
 
-Nessun video pre-renderizzato. Nessun trucco CSS. La matematica viene calcolata in questo momento, sul tuo dispositivo.
+Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero in questo momento, sul tuo dispositivo.
 
-Queste simulazioni sono ispirate dalla fisica reale ma ottimizzate per l'impatto visivo. I parametri sono scelti per essere belli, non per riprodurre un esperimento specifico. Pensale come **arte computazionale radicata nella vera scienza**.
+Queste simulazioni si ispirano a fenomeni fisici reali, ma sono tarate per fare colpo. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
 
 ---
 
@@ -17,16 +17,16 @@ Queste simulazioni sono ispirate dalla fisica reale ma ottimizzate per l'impatto
 
 ## Atomi di Rydberg
 
-Quello che hai visto è un gas di **atomi di Rydberg** (atomi eccitati a numeri quantici principali estremamente elevati) che mostrano dinamiche di eccitazione facilitata.
+Quello che hai visto è un gas di **atomi di Rydberg** (atomi portati a numeri quantici principali altissimi) animato da una dinamica di eccitazione facilitata.
 
-Gli atomi di Rydberg sono enormi per gli standard atomici. Un atomo di rubidio nello stato di Rydberg 70s ha un orbitale elettronico migliaia di volte più grande dello stato fondamentale. Questa dimensione estrema conferisce agli atomi di Rydberg proprietà straordinarie: interagiscono tra loro tramite forti forze di **van der Waals** a lungo raggio che decadono come 1/r^6.
+Gli atomi di Rydberg sono enormi su scala atomica. Un atomo di rubidio nello stato di Rydberg 70s ha un orbitale elettronico migliaia di volte più grande che nello stato fondamentale. Queste dimensioni fuori misura danno loro proprietà straordinarie: interagiscono tra loro tramite intense forze di **van der Waals** a lungo raggio, che decadono come 1/r^6.
 
-Il fenomeno chiave è il **blocco di Rydberg**: quando un atomo è eccitato, la sua interazione di van der Waals sposta i livelli energetici degli atomi vicini, impedendo loro di essere eccitati. Questo crea una zona di esclusione (il raggio di blocco) attorno a ogni atomo di Rydberg. Tuttavia, se il laser usato per l'eccitazione è leggermente spostato verso il blu rispetto alla risonanza fondamentale-Rydberg, lo shift repulsivo di van der Waals di un atomo di Rydberg vicino può compensare il detuning a una distanza specifica, riportando la transizione in risonanza. Questo crea un **guscio di facilitazione** dove l'eccitazione è potenziata.
+Il fenomeno chiave è il **blocco di Rydberg**: appena un atomo viene eccitato, la sua interazione di van der Waals sposta i livelli di energia degli atomi vicini e impedisce anche a loro di eccitarsi. Si forma così una zona di esclusione (il raggio di blocco) attorno a ogni atomo di Rydberg. Se però il laser di eccitazione viene leggermente spostato verso il blu rispetto alla risonanza fondamentale-Rydberg, lo spostamento repulsivo dovuto a un atomo di Rydberg vicino può compensare quel disaccordo a una distanza ben precisa e riportare la transizione in risonanza. Nasce allora un **guscio di facilitazione**, dove l'eccitazione è invece favorita.
 
-I punti blu sono atomi nello stato fondamentale, confinati da una trappola magneto-ottica (MOT). I lampi gialli brillanti sono atomi eccitati allo stato di Rydberg. Osserva come le eccitazioni tendano ad apparire a distanze specifiche dagli atomi di Rydberg esistenti: quello è il guscio di facilitazione. Gli atomi eccitati si respingono e alla fine decadono di nuovo allo stato fondamentale.
+I punti blu sono gli atomi nello stato fondamentale, trattenuti da una trappola magneto-ottica (MOT). I lampi giallo acceso sono atomi portati allo stato di Rydberg. Guarda come le eccitazioni tendano a comparire a distanze ben precise dagli atomi di Rydberg già presenti: ecco il guscio di facilitazione. Gli atomi eccitati si respingono e alla fine ricadono nello stato fondamentale.
 
-Non è solo una curiosità. Gli array di atomi di Rydberg sono una delle piattaforme leader per il **calcolo quantistico**. Aziende come QuEra, Pasqal e gruppi di ricerca in tutto il mondo usano array precisamente controllati di atomi di Rydberg per costruire processori quantistici con centinaia di qubit.
+E non è solo una curiosità. Le schiere di atomi di Rydberg sono tra le piattaforme più promettenti per il **calcolo quantistico**. Aziende come QuEra o Pasqal, e gruppi di ricerca in tutto il mondo, dispongono gli atomi di Rydberg con grande precisione per costruire processori quantistici con centinaia di qubit.
 
 ### Sotto il cofano
 
-La simulazione combina dinamiche di eccitazione stocastica con l'algoritmo di Gillespie, integrazione meccanica velocity-Verlet e un termostato di Langevin per il raffreddamento MOT. I tassi di eccitazione seguono un profilo lorentziano centrato sulla risonanza di facilitazione. L'output è una texture float a due canali: campo di densità degli atomi fondamentali e campo di densità degli atomi eccitati, renderizzati come blob gaussiani tramite il fragment shader.
+La simulazione mette insieme una dinamica di eccitazione stocastica con l'algoritmo di Gillespie, un'integrazione meccanica velocity-Verlet e un termostato di Langevin per il raffreddamento del MOT. I tassi di eccitazione seguono un profilo lorentziano centrato sulla risonanza di facilitazione. In uscita si ottiene una texture float a due canali (il campo di densità degli atomi fondamentali e quello degli atomi eccitati), disegnati come macchie gaussiane dal fragment shader.
