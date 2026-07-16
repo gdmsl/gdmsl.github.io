@@ -5,13 +5,13 @@ slug: "about"
 layout: "hero-sim"
 simulation: "ising"
 simulationConfig: '{"overlayGrid":false,"maxAlpha":0.3}'
-subtitle: "Fisico | CTO e Co-fondatore @ QPerfect"
+subtitle: "Fisico | CTO, DG e Cofondatore @ QPerfect"
 showTableOfContents: true
 ---
 
 ## Profilo
 
-Sono un fisico, architetto di software quantistico e imprenditore con sede a Strasburgo, Francia. Ho co-fondato [QPerfect](https://qperfect.io), dove sono **CTO e Direttore Generale**. QPerfect è un'azienda di software quantistico che costruisce strumenti per accelerare il percorso verso il calcolo quantistico fault-tolerant, da [MIMIQ](https://qperfect.io/mimiq/) (il computer quantistico virtuale più potente al mondo) a [QLU](https://qperfect.io/qlu/) (una piattaforma di compilazione fault-tolerant e correzione degli errori per hardware ad atomi neutri).
+Sono un fisico, architetto di software quantistico e imprenditore. Vivo e lavoro a Strasburgo, in Francia. Ho cofondato [QPerfect](https://qperfect.io), dove sono **CTO e Direttore Generale**. QPerfect è un'azienda di software quantistico che costruisce strumenti per accelerare il percorso verso il calcolo quantistico fault-tolerant, da [MIMIQ](https://qperfect.io/mimiq/) (il computer quantistico virtuale più potente al mondo) a [QLU](https://qperfect.io/qlu/) (una piattaforma di compilazione fault-tolerant e correzione degli errori per hardware ad atomi neutri).
 
 Il mio percorso è iniziato nella fisica sperimentale e teorica, lavorando su gas atomici ultrafreddi e atomi di Rydberg. In oltre sei anni di ricerca, ho sviluppato competenze nei sistemi quantistici a molti corpi, nei metodi numerici ad alte prestazioni e nelle simulazioni Monte Carlo quantistiche.
 
@@ -21,16 +21,16 @@ Oggi lavoro all'intersezione tra fisica quantistica e ingegneria del software, c
 
 ### QPerfect (2022–oggi)
 
-**CTO & Co-fondatore / Direttore Generale**, Strasburgo, Francia
+**CTO e Cofondatore / Direttore Generale**, Strasburgo, Francia
 
-- Co-fondato QPerfect per portare tecnologie di software quantistico dall'accademia all'industria.
+- Cofondato QPerfect per portare le tecnologie di software quantistico dal mondo accademico all'industria.
 - Progettato e guidato lo sviluppo di [MIMIQ](https://qperfect.io/mimiq/), un computer quantistico virtuale che integra motori statevector e matrix product state (MPS).
 - Guida lo sviluppo di [QLU](https://qperfect.io/qlu/), un middleware di compilazione fault-tolerant e correzione degli errori in tempo reale per processori quantistici ad atomi neutri.
-- Ricoperto il ruolo di CEO durante un periodo di transizione dopo le dimissioni del precedente CEO, gestendo raccolta fondi, strategia e operazioni.
+- Ricoperto il ruolo di CEO in un periodo di transizione, dopo l'uscita del CEO precedente, occupandomi di raccolta fondi, strategia e operazioni.
 
 ### Università di Strasburgo & USIAS (2020–2022)
 
-**Ricercatore post-dottorale**, Strasburgo, Francia
+**Ricercatore post-dottorato**, Strasburgo, Francia
 *Supervisori: Prof. Guido Pupillo e Prof. Nikolay V. Prokof'ev*
 
 - Studio delle proprietà di conduttività di sistemi bosonici fortemente correlati tramite simulazioni Path Integral Monte Carlo su larga scala, pubblicato su *Nature Communications*.
@@ -53,6 +53,11 @@ Oggi lavoro all'intersezione tra fisica quantistica e ingegneria del software, c
 
 - Contributo alla realizzazione di un nuovo esperimento per atomi ultrafreddi di Disprosio.
 - Implementazione di sistemi di controllo remoto per l'apparato sperimentale.
+
+## Riconoscimenti
+
+- **2026** — Selezionato nel [*Palmarès Choiseul Alsace*]({{< relref "posts/choiseul-alsace-2026" >}}), la classifica dell'Institut Choiseul dei 100 leader under 40 che danno forma all'economia dell'Alsazia.
+- **2023** — Come cofondatore e CTO di QPerfect, vincitore del **Grand Prix i-Lab**, il concorso nazionale francese per l'innovazione deep-tech.
 
 ## Formazione
 
@@ -77,7 +82,7 @@ Oggi lavoro all'intersezione tra fisica quantistica e ingegneria del software, c
 | Lingua | Livello |
 |---|---|
 | **Italiano** | Madrelingua |
-| **Inglese** | Competente |
+| **Inglese** | Fluente |
 | **Francese** | Intermedio |
 
 ## Didattica e supervisione

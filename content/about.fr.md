@@ -2,25 +2,28 @@
 title: "À propos"
 date: 2020-05-05T10:18:35+02:00
 slug: "about"
-layout: "simple"
+layout: "hero-sim"
+simulation: "ising"
+simulationConfig: '{"overlayGrid":false,"maxAlpha":0.3}'
+subtitle: "Physicien | CTO, DG & Co-fondateur @ QPerfect"
 showTableOfContents: true
 ---
 
 ## Profil
 
-Je suis physicien, architecte logiciel quantique et entrepreneur basé à Strasbourg, France. J'ai co-fondé [QPerfect](https://qperfect.io), où je suis **CTO et Directeur Général**. QPerfect est une entreprise de logiciels quantiques qui construit des outils pour accélérer le chemin vers le calcul quantique fault-tolerant, de [MIMIQ](https://qperfect.io/mimiq/) (l'ordinateur quantique virtuel le plus puissant au monde) à [QLU](https://qperfect.io/qlu/) (une plateforme de compilation fault-tolerant et de correction d'erreurs pour le matériel à atomes neutres).
+Je suis physicien, architecte logiciel quantique et entrepreneur, installé à Strasbourg, en France. J'ai cofondé [QPerfect](https://qperfect.io), où je suis **CTO et Directeur Général**. QPerfect est une entreprise de logiciels quantiques qui conçoit des outils pour accélérer l'arrivée de l'informatique quantique fault-tolerant, de [MIMIQ](https://qperfect.io/mimiq/) (l'ordinateur quantique virtuel le plus puissant au monde) à [QLU](https://qperfect.io/qlu/) (une plateforme de compilation fault-tolerant et de correction d'erreurs pour le matériel à atomes neutres).
 
-Mon parcours a débuté en physique expérimentale et théorique, en travaillant sur les gaz atomiques ultrafroids et les atomes de Rydberg. Au cours de plus de six années de recherche, j'ai développé une expertise dans les systèmes quantiques à plusieurs corps, les méthodes numériques haute performance et les simulations Monte Carlo quantiques.
+Mon parcours a commencé en physique expérimentale et théorique, autour des gaz atomiques ultrafroids et des atomes de Rydberg. En plus de six années de recherche, j'ai développé une expertise des systèmes quantiques à N corps, des méthodes numériques haute performance et des simulations Monte Carlo quantiques.
 
-Aujourd'hui, je travaille à l'intersection de la physique quantique et de l'ingénierie logicielle, construisant les outils qui font fonctionner les ordinateurs quantiques.
+Aujourd'hui, je travaille à la croisée de la physique quantique et de l'ingénierie logicielle, à concevoir les outils qui font fonctionner les ordinateurs quantiques.
 
 ## Expérience professionnelle
 
 ### QPerfect (2022–aujourd'hui)
 
-**CTO & Co-fondateur / Directeur Général**, Strasbourg, France
+**CTO & Cofondateur / Directeur Général**, Strasbourg, France
 
-- Co-fondé QPerfect pour apporter des technologies de logiciel quantique de l'académie vers l'industrie.
+- Cofondé QPerfect pour faire passer les technologies de logiciel quantique du monde académique à l'industrie.
 - Conçu et dirigé le développement de [MIMIQ](https://qperfect.io/mimiq/), un ordinateur quantique virtuel intégrant des moteurs statevector et matrix product state (MPS).
 - Dirige le développement de [QLU](https://qperfect.io/qlu/), un middleware de compilation fault-tolerant et de correction d'erreurs en temps réel pour processeurs quantiques à atomes neutres.
 - Exercé le rôle de CEO durant une période de transition après le départ du précédent CEO, gérant la levée de fonds, la stratégie et les opérations.
@@ -48,8 +51,13 @@ Aujourd'hui, je travaille à l'intersection de la physique quantique et de l'ing
 
 **Stagiaire**, Pise, Italie
 
-- Contribution à la mise en place d'une nouvelle expérience pour les atomes ultrafroids de Dysprosium.
-- Implémentation de systèmes de contrôle à distance pour l'appareil expérimental.
+- Contribution à la mise en place d'une nouvelle expérience sur les atomes ultrafroids de dysprosium.
+- Implémentation de systèmes de contrôle à distance pour le dispositif expérimental.
+
+## Distinctions
+
+- **2026** — Nommé au [*Palmarès Choiseul Alsace*]({{< relref "posts/choiseul-alsace-2026" >}}), le classement de l'Institut Choiseul réunissant 100 dirigeants de moins de 40 ans qui font l'économie alsacienne.
+- **2023** — En tant que cofondateur et CTO de QPerfect, lauréat du **Grand Prix i-Lab**, le concours national d'innovation deep-tech.
 
 ## Formation
 

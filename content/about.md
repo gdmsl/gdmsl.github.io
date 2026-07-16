@@ -54,6 +54,11 @@ Today, I work at the intersection of quantum physics and software engineering, b
 - Contributed to the setup of a new experiment for ultracold Dysprosium atoms.
 - Implemented remote control systems for the experimental apparatus.
 
+## Awards & Recognition
+
+- **2026** — Named to the [*Palmarès Choiseul Alsace*]({{< relref "posts/choiseul-alsace-2026" >}}), the Institut Choiseul's ranking of 100 leaders under 40 shaping the economy of the Alsace region.
+- **2023** — As co-founder and CTO of QPerfect, winner of the French **i-Lab Grand Prix**, the national deep-tech innovation prize.
+
 ## Education
 
 | Degree | Institution | Year |
