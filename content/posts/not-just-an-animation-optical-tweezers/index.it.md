@@ -1,7 +1,7 @@
 ---
 title: "Questa non è solo un'animazione: le pinzette ottiche"
 date: 2026-03-11
-summary: "Lo sfondo che hai appena visto è una vera simulazione di ordinamento con pinzette ottiche eseguita nel tuo browser tramite WebAssembly."
+summary: "Lo sfondo che hai appena visto è una vera simulazione di ordinamento con pinzette ottiche che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "calcolo-quantistico"]
 ---
 

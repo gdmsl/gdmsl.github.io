@@ -1,7 +1,7 @@
 ---
 title: "Ceci n'est pas juste une animation : le modèle d'Ising"
 date: 2026-03-14
-summary: "L'arrière-plan que vous venez de voir est une vraie simulation du modèle d'Ising exécutée dans votre navigateur via WebAssembly."
+summary: "L'arrière-plan que vous venez de voir est une vraie simulation du modèle d'Ising qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "mécanique-statistique"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Ceci n'est pas juste une animation : les pinces optiques"
 date: 2026-03-11
-summary: "L'arrière-plan que vous venez de voir est une vraie simulation de tri par pinces optiques exécutée dans votre navigateur via WebAssembly."
+summary: "L'arrière-plan que vous venez de voir est une vraie simulation de tri par pinces optiques qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "calcul-quantique"]
 ---
 

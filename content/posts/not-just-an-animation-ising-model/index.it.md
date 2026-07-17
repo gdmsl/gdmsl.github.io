@@ -1,7 +1,7 @@
 ---
 title: "Questa non è solo un'animazione: il modello di Ising"
 date: 2026-03-14
-summary: "Lo sfondo che hai appena visto è una vera simulazione del modello di Ising eseguita nel tuo browser tramite WebAssembly."
+summary: "Lo sfondo che hai appena visto è una vera simulazione del modello di Ising che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "meccanica-statistica"]
 ---
 
