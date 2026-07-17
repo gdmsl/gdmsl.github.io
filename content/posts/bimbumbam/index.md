@@ -1,5 +1,5 @@
 ---
-title: "bimbumbam"
+title: "BIM! BUM! BAM!"
 date: 2026-07-17
 summary: "A tiny tool I built so my daughter could bash my keyboard in peace, and a short note on how easy small tools have become."
 tags: ["rust", "ai", "tools"]

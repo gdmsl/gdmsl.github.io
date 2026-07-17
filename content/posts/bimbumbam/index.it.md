@@ -1,5 +1,5 @@
 ---
-title: "bimbumbam"
+title: "BIM! BUM! BAM!"
 date: 2026-07-17
 summary: "Un piccolo strumento che ho costruito perché mia figlia potesse pestare la tastiera in pace, e due parole su quanto sia diventato facile farsi gli strumenti da soli."
 tags: ["rust", "ai", "strumenti"]
