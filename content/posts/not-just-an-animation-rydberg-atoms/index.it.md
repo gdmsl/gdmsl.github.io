@@ -5,11 +5,11 @@ summary: "Lo sfondo che hai appena visto è una vera simulazione di atomi di Ryd
 tags: ["fisica", "simulazione", "calcolo-quantistico"]
 ---
 
-Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione di fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
+Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
 
-Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero in questo momento, sul tuo dispositivo.
+Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero, proprio adesso, sul tuo dispositivo.
 
-Queste simulazioni si ispirano a fenomeni fisici reali, ma sono tarate per fare colpo. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
+Queste simulazioni si ispirano a fenomeni fisici reali, ma le ho regolate per il piacere degli occhi. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
 
 ---
 
@@ -27,6 +27,6 @@ I punti blu sono gli atomi nello stato fondamentale, trattenuti da una trappola 
 
 E non è solo una curiosità. Le schiere di atomi di Rydberg sono tra le piattaforme più promettenti per il **calcolo quantistico**. Aziende come QuEra o Pasqal, e gruppi di ricerca in tutto il mondo, dispongono gli atomi di Rydberg con grande precisione per costruire processori quantistici con centinaia di qubit.
 
-### Sotto il cofano
+### Dietro le quinte
 
 La simulazione mette insieme una dinamica di eccitazione stocastica con l'algoritmo di Gillespie, un'integrazione meccanica velocity-Verlet e un termostato di Langevin per il raffreddamento del MOT. I tassi di eccitazione seguono un profilo lorentziano centrato sulla risonanza di facilitazione. In uscita si ottiene una texture float a due canali (il campo di densità degli atomi fondamentali e quello degli atomi eccitati), disegnati come macchie gaussiane dal fragment shader.

@@ -5,11 +5,11 @@ summary: "Lo sfondo che hai appena visto è una vera simulazione di ordinamento 
 tags: ["fisica", "simulazione", "calcolo-quantistico"]
 ---
 
-Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra decorativo, ma in realtà è una **vera simulazione fisica** che gira dal vivo nel tuo browser, compilata in WebAssembly a partire da Rust.
+Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
 
-Nessun video pre-registrato, nessun trucco CSS. I calcoli avvengono davvero, proprio adesso, sul tuo dispositivo.
+Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero, proprio adesso, sul tuo dispositivo.
 
-Queste simulazioni si ispirano alla fisica reale, ma le ho regolate per il piacere degli occhi. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Puoi vederle come **arte computazionale radicata nella scienza vera**.
+Queste simulazioni si ispirano a fenomeni fisici reali, ma le ho regolate per il piacere degli occhi. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
 
 ---
 

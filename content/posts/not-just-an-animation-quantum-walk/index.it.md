@@ -5,11 +5,11 @@ summary: "Lo sfondo che hai appena visto è una vera simulazione di passeggiata 
 tags: ["fisica", "simulazione", "quantistica"]
 ---
 
-Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione di fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
+Forse hai notato lo sfondo animato sulla pagina da cui arrivi. Sembra una semplice decorazione, ma in realtà è una **vera simulazione fisica** che gira dal vivo nel tuo browser, compilata da Rust a WebAssembly.
 
-Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero in questo momento, sul tuo dispositivo.
+Niente video preregistrati, niente trucchi CSS. I calcoli avvengono davvero, proprio adesso, sul tuo dispositivo.
 
-Queste simulazioni si ispirano a fenomeni fisici reali, ma sono tarate per fare colpo. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
+Queste simulazioni si ispirano a fenomeni fisici reali, ma le ho regolate per il piacere degli occhi. Ho scelto i parametri per la resa visiva, non per riprodurre un esperimento preciso. Considerale come **arte computazionale radicata nella scienza vera**.
 
 ---
 
@@ -25,6 +25,6 @@ In una passeggiata classica, la distanza dall'origine cresce in media come la ra
 
 Quello che vedi sullo schermo è la distribuzione di probabilità su una griglia 2D. La luminosità di ogni cella indica quanto è probabile trovarci il camminatore. Le frange di interferenza (quelle creste che ondeggiano) sono un fenomeno puramente quantistico, senza equivalente classico.
 
-### Sotto il cofano
+### Dietro le quinte
 
 La simulazione risolve l'equazione di Schrödinger su un reticolo discreto con un metodo split-operator. A ogni frame il modulo WASM calcola un passo temporale e scrive il campo di probabilità in una texture float a canale singolo. Uno shader WebGL2 traduce poi la probabilità in un gradiente di blu, con vignettatura e griglia in sovrimpressione.
