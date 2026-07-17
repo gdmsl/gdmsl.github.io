@@ -2,3 +2,6 @@ resources/_gen/
 .hugo_build.lock
 public/
 public-local
+
+# local-only project notes / writing-voice guide
+CLAUDE.md
