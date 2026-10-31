@@ -36,7 +36,8 @@ vec3 blueRamp(float t) {
   vec3 hiLight   = vec3(0.290, 0.545, 0.950);
   vec3 mid  = mix(elecLight, elecDark, u_isDark);
   vec3 high = mix(hiLight,   hiDark,   u_isDark);
-  return t < 0.5 ? mix(navy, mid, t * 2.0) : mix(mid, high, (t - 0.5) * 2.0);
+  vec3 low  = mix(elecLight, navy, u_isDark);
+  return t < 0.5 ? mix(low, mid, t * 2.0) : mix(mid, high, (t - 0.5) * 2.0);
 }
 
 float vignette(vec2 uv) {
@@ -132,7 +133,8 @@ void main() {
   float alpha = vig * u_maxAlpha;
 
   // Boost alpha where there's spin-up activity or glow
-  alpha *= 0.6 + 0.4 * spin + glow * 0.3;
+  float downAlpha = mix(0.2, 0.6, u_isDark);
+  alpha *= downAlpha + (1.0 - downAlpha) * spin + glow * 0.3;
 
   fragColor = vec4(color * alpha, alpha);
 }`;
@@ -166,13 +168,13 @@ void main() {
   excited = pow(excited, 1.4);
 
   // Ground atoms: bright blue
-  vec3 groundCol = mix(vec3(0.15, 0.40, 0.95), vec3(0.25, 0.55, 1.0), u_isDark);
+  vec3 groundCol = mix(vec3(0.10, 0.30, 0.85), vec3(0.25, 0.55, 1.0), u_isDark);
   // Rydberg atoms: yellow
-  vec3 excitedCol = mix(vec3(0.95, 0.85, 0.15), vec3(1.0, 0.92, 0.25), u_isDark);
+  vec3 excitedCol = mix(vec3(0.95, 0.50, 0.05), vec3(1.0, 0.92, 0.25), u_isDark);
   // Hot core of excited atom — bright white-yellow
-  vec3 coreCol = vec3(1.0, 0.98, 0.75);
+  vec3 coreCol = mix(vec3(0.85, 0.30, 0.0), vec3(1.0, 0.98, 0.75), u_isDark);
   // Glow halo: warm yellow
-  vec3 glowCol = vec3(0.85, 0.75, 0.1);
+  vec3 glowCol = mix(vec3(0.95, 0.55, 0.1), vec3(0.85, 0.75, 0.1), u_isDark);
 
   // Ground: bright and visible
   float gAlpha = ground * 1.2;
@@ -225,23 +227,23 @@ void main() {
   // Trap circles: light grey semi-transparent
   float trapMask = smoothstep(0.03, 0.08, r) * (1.0 - smoothstep(0.3, 0.5, r));
   vec3 trapColDark  = vec3(0.55, 0.55, 0.60);
-  vec3 trapColLight = vec3(0.65, 0.65, 0.70);
+  vec3 trapColLight = vec3(0.60, 0.65, 0.75);
   vec3 trapCol = mix(trapColLight, trapColDark, u_isDark);
-  float trapAlpha = trapMask * 0.35;
+  float trapAlpha = trapMask * mix(0.15, 0.35, u_isDark);
 
   // Atom: bright teal
   float atomMask = smoothstep(0.3, 0.5, r);
   vec3 atomColDark  = vec3(0.08, 0.82, 0.72);
-  vec3 atomColLight = vec3(0.06, 0.70, 0.62);
+  vec3 atomColLight = vec3(0.0, 0.55, 0.50);
   vec3 atomCol = mix(atomColLight, atomColDark, u_isDark);
   float atomAlpha = atomMask * min(r * 1.5, 1.0);
 
   // Tweezer: bright yellow semi-transparent
   float tweezMask = smoothstep(0.05, 0.15, g);
   vec3 tweezColDark  = vec3(1.0, 0.85, 0.10);
-  vec3 tweezColLight = vec3(0.90, 0.75, 0.05);
+  vec3 tweezColLight = vec3(0.95, 0.50, 0.0);
   vec3 tweezCol = mix(tweezColLight, tweezColDark, u_isDark);
-  float tweezAlpha = tweezMask * 0.4 * g;
+  float tweezAlpha = tweezMask * mix(0.7, 0.4, u_isDark) * g;
 
   // Composite: trap -> tweezer -> atom (front)
   color = trapCol * trapAlpha;

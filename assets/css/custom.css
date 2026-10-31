@@ -240,6 +240,17 @@
   font-size: 1.05em;
 }
 
+/* --- Header avatar --- */
+
+.header-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(59, 130, 246, 0.4);
+}
+
 /* --- Header: extend hamburger breakpoint for longer translated labels --- */
 
 @media (max-width: 1023px) {

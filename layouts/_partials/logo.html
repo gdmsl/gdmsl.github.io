@@ -1,0 +1,19 @@
+<a
+  class="flex items-center decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+  rel="me"
+  href="{{ "" | relLangURL }}"
+>
+  {{- with site.Language.Params.Author.image }}
+    {{- with resources.Get . }}
+      {{- $img := .Fill "80x80 webp" }}
+      <img
+        src="{{ $img.RelPermalink }}"
+        width="40"
+        height="40"
+        class="header-avatar"
+        alt=""
+      />
+    {{- end }}
+  {{- end }}
+  <span>{{ .Site.Title | markdownify | emojify }}</span>
+</a>
