@@ -1,5 +1,6 @@
 ---
 title: "Not Just an Animation: Quantum Walk"
+featureAlt: "A frame of the quantum walk simulation: faint blue probability spots spreading over a square lattice."
 date: 2026-03-15
 summary: "The background you just saw is a real quantum walk simulation running in your browser via WebAssembly."
 tags: ["physics", "simulation", "quantum"]

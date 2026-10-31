@@ -1,5 +1,6 @@
 ---
 title: "Ceci n'est pas juste une animation : la marche quantique"
+featureAlt: "Une image de la simulation de la marche quantique : de légères taches bleues de probabilité qui s'étalent sur un réseau carré."
 date: 2026-03-15
 summary: "L'arrière-plan que vous venez de voir est une vraie simulation de marche quantique qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "quantique"]

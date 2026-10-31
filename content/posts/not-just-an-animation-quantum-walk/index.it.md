@@ -1,5 +1,6 @@
 ---
 title: "Questa non è solo un'animazione: la passeggiata quantistica"
+featureAlt: "Un fotogramma della simulazione della passeggiata quantistica: deboli macchie blu di probabilità che si allargano su un reticolo quadrato."
 date: 2026-03-15
 summary: "Lo sfondo che hai appena visto è una vera simulazione di passeggiata quantistica che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "quantistica"]

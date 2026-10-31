@@ -1,5 +1,6 @@
 ---
 title: "Not Just an Animation: Rydberg Atoms"
+featureAlt: "A frame of the Rydberg atom simulation: blue ground-state atoms and a few bright yellow atoms excited to a Rydberg state."
 date: 2026-03-12
 summary: "The background you just saw is a real Rydberg atom simulation running in your browser via WebAssembly."
 tags: ["physics", "simulation", "quantum-computing"]

@@ -1,5 +1,6 @@
 ---
 title: "Not Just an Animation: Optical Tweezers"
+featureAlt: "A frame of the optical tweezer simulation: a grid of traps, some holding teal atoms, with a yellow tweezer moving one of them."
 date: 2026-03-11
 summary: "The background you just saw is a real optical tweezer sorting simulation running in your browser via WebAssembly."
 tags: ["physics", "simulation", "quantum-computing"]

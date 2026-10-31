@@ -1,5 +1,6 @@
 ---
 title: "Questa non è solo un'animazione: il modello di Ising"
+featureAlt: "Un fotogramma della simulazione del modello di Ising: domini di spin su (blu) e spin giù (scuri) su un reticolo quadrato."
 date: 2026-03-14
 summary: "Lo sfondo che hai appena visto è una vera simulazione del modello di Ising che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "meccanica-statistica"]

@@ -6,13 +6,13 @@ title = "Guido Masella"
 
 [params]
   displayName = "Guido Masella"
-  description = "CTO, DG & Co-fondateur de QPerfect — Physicien, Architecte Logiciel Quantique"
+  description = "CTO, DG et cofondateur de QPerfect. Physicien et architecte logiciel quantique."
 
 [params.author]
   name = "Guido Masella"
   image = "img/author.webp"
-  headline = "Physicien | CTO, DG & Co-fondateur @ QPerfect"
-  bio = "Co-fondateur de [QPerfect](https://qperfect.io). Je construis [MIMIQ](https://qperfect.io/mimiq/), un ordinateur quantique virtuel, et [QLU](https://qperfect.io/qlu/), un middleware quantique fault-tolerant. Des phases quantiques exotiques de la matière aux qubits et portes quantiques."
+  headline = "Physicien | CTO, DG & Cofondateur @ QPerfect"
+  bio = "Cofondateur de [QPerfect](https://qperfect.io). Je développe [MIMIQ](https://qperfect.io/mimiq/), un ordinateur quantique virtuel, et [QLU](https://qperfect.io/qlu/), un middleware quantique fault-tolerant. Des phases quantiques exotiques de la matière aux qubits et aux portes quantiques."
   links = [
     { github = "https://github.com/gdmsl/" },
     { gitlab = "https://gitlab.com/gdmsl/" },

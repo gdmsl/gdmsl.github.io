@@ -1,5 +1,6 @@
 ---
 title: "Ceci n'est pas juste une animation : le modèle d'Ising"
+featureAlt: "Une image de la simulation du modèle d'Ising : des domaines de spins vers le haut (bleus) et vers le bas (sombres) sur un réseau carré."
 date: 2026-03-14
 summary: "L'arrière-plan que vous venez de voir est une vraie simulation du modèle d'Ising qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "mécanique-statistique"]

@@ -1,5 +1,6 @@
 ---
 title: "Questa non è solo un'animazione: gli atomi di Rydberg"
+featureAlt: "Un fotogramma della simulazione degli atomi di Rydberg: atomi blu nello stato fondamentale e qualche atomo giallo brillante eccitato in uno stato di Rydberg."
 date: 2026-03-12
 summary: "Lo sfondo che hai appena visto è una vera simulazione di atomi di Rydberg che gira nel tuo browser grazie a WebAssembly."
 tags: ["fisica", "simulazione", "calcolo-quantistico"]

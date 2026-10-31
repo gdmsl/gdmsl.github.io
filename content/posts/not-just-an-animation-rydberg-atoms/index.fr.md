@@ -1,5 +1,6 @@
 ---
 title: "Ceci n'est pas juste une animation : les atomes de Rydberg"
+featureAlt: "Une image de la simulation des atomes de Rydberg : des atomes bleus dans l'état fondamental et quelques atomes jaunes très lumineux excités dans un état de Rydberg."
 date: 2026-03-12
 summary: "L'arrière-plan que vous venez de voir est une vraie simulation d'atomes de Rydberg qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "calcul-quantique"]

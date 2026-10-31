@@ -1,5 +1,6 @@
 ---
 title: "Ceci n'est pas juste une animation : les pinces optiques"
+featureAlt: "Une image de la simulation des pinces optiques : une grille de pièges, certains occupés par des atomes turquoise, et une pince jaune qui en déplace un."
 date: 2026-03-11
 summary: "L'arrière-plan que vous venez de voir est une vraie simulation de tri par pinces optiques qui tourne dans votre navigateur grâce à WebAssembly."
 tags: ["physique", "simulation", "calcul-quantique"]

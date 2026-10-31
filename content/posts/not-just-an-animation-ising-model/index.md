@@ -1,5 +1,6 @@
 ---
 title: "Not Just an Animation: Ising Model"
+featureAlt: "A frame of the Ising model simulation: domains of blue spin-up cells and dark spin-down cells on a square lattice."
 date: 2026-03-14
 summary: "The background you just saw is a real Ising model simulation running in your browser via WebAssembly."
 tags: ["physics", "simulation", "statistical-mechanics"]
